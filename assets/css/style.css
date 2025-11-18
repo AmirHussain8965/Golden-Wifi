@@ -89,7 +89,7 @@ body{
 }
 .hero_txt_main_div{
     width: 100%;
-    max-width: 992px;
+    max-width: 1024px;
     margin: auto;
     text-align: center;
     position: relative;
@@ -140,13 +140,22 @@ body{
 .hero_txt_main_div h1{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
-    font-size: 82px;
-    line-height: 104px;
+    font-size: 56px;
+    line-height: 70px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 0;
     margin-top: 20px;
     letter-spacing: 3px;
+}
+.hero_txt_main_div h6{
+    margin-top: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E7E7E7;
 }
 .hero_txt_main_div p{
     font-weight: 400;
@@ -304,12 +313,6 @@ body{
     border-radius: 30px;
     border: none;
     margin-top: 30px;
-}
-.readmore_txt {
-    display: none;
-}
-.readmore_txt.show {
-    display: block;
 }
 .story_bottom_card_main{
     position: relative;
@@ -667,9 +670,6 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-top: 0;
-}
-.roadmap_steps_text#PHASE2{
-    
 }
 .roadmap_steps_text#PHASE3{
     display: flex;
@@ -1316,11 +1316,25 @@ body{
         font-size: 20px;
         line-height: 36px;
     }
+    .navbar-brand img{
+        height: 140px;
+        width: auto;
+        transition: all 0.6s ease;
+    }
+    .hero_section{
+        padding-top: 50px;
+    }
 }
 @media(max-width:1024px){
-        .navbar-brand img{
+    .navbar-brand img{
         height: 120px;
         width: auto;
+    }
+        .home_sec5_swiper_inner {
+        min-height: 390px;
+    }
+    .partner_text_div{
+        padding: 0px 20px 0px 0px;;
     }
 }
 @media(max-width:992px){
@@ -1328,6 +1342,12 @@ body{
         justify-content: start !important;
         margin-top: 40px !important;
         padding-top: 0px !important;
+    }
+    .story_bottom_card_txt{
+        padding-right: 0;
+    }
+    .choose_cards_main_div{
+        justify-content: center;
     }
     .conn_sec1_text_div h1 {
         font-size: 28px;
@@ -1393,8 +1413,26 @@ body{
         font-weight: 500;
         font-size: 20px;
     }
+    .coverage_text_main h1 {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 48px;
+        color: #C7C7C7;
+    }
 }
 @media(max-width:768px){
+    .footer_txt1 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+    .works_table_main{
+        padding: 60px 10px;
+    }
+    .hero_section{
+        padding-top: 0;
+    }
     .footer_links_inner{
         margin-top: 50px;
     }
@@ -1446,6 +1484,9 @@ body{
     }
 }
 @media(max-width:576px){
+    .terms_text_div h1 {
+        font-size: 32px;
+    }
     .conn_sec1_img img {
         height: 400px;
     }
@@ -1471,8 +1512,21 @@ body{
         width: auto;
     }
     .hero_txt_main_div h1 {
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .hero_txt_main_div h5 {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .hero_txt_main_div h6 {
+        margin-top: 20px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E7E7E7;
     }
     .about_left_text h1 {
         font-size: 28px;
@@ -1539,6 +1593,19 @@ body{
     }
 }
 @media(max-width:480px){
+    .conn_sec1_text_div h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .partner_text_div{
+        padding: 20px 0px;
+    }
+    .partner_text_div h1 {
+        font-size: 19px;
+    }
+    .coverage_bg{
+        padding: 40px 12px;
+    }
     .conn_sec3_left_inner h5 {
         font-weight: 500;
         font-size: 18px;
@@ -1556,9 +1623,116 @@ body{
         font-size: 36px;
         line-height: 44px;
     }
+    .hero_txt_main_div p {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        color: #E7E7E7;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .coverage_text_main h1 {
+        font-size: 28px;
+    }
+    .works_title h1 {
+        font-size: 27px;
+    }
 }
-
-
+@media(max-width:400px){
+    .conn_sec1_img img {
+        height: 320px;
+    }
+    .conn_sec3_right_img img {
+        height: 320px;
+    }
+    .conn_sec4_text_div h1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .terms_text_div h1 {
+        font-size: 28px;
+    }
+    .footer_txt1 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    .hero_txt_main_div h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .partner_text_div p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .about_left_text h1 {
+        font-size: 24px;
+    }
+    .story_bottom_card_txt_innner p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .works_title h1 {
+        font-size: 25px;
+    }
+    .roadmap_title h1 {
+        font-size: 24px;
+    }
+    .choose_title h1 {
+        font-size: 22px;
+    }
+}
+@media(max-width:350px){
+    .conn_sec3_left_inner p {
+        font-size: 12px;
+        color: #FFFFFFCC;
+        margin-bottom: 0;
+    }
+    .terms_text_div h1 {
+        font-size: 24px;
+    }
+    .hero_section{
+        min-height: 600px;
+    }
+    .hero_btns a button {
+        background: #010066;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .hero_txt_main_div h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .works_title h1 {
+        font-size: 23px;
+    }
+    .roadmap_steps_nummber_inner2 {
+        height: 100px;
+        width: 100px;
+        border-radius: 30px;
+    }
+    .roadmap_steps_nummber_inner2 span {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .roadmap_steps_text h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .roadmap_steps_text p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFFCC;
+        margin-bottom: 0;
+    }
+    .home_sec5_swiper_inner {
+        padding: 45px 15px 20px 15px;
+    }
+    .bg_img{
+        min-height: auto;
+    }
+}
    
 
 

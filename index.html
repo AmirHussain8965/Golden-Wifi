@@ -50,11 +50,12 @@
         <section class="hero_section">
             <div class="container">
                 <div class="hero_txt_main_div">
-                    <h5>Fast. Affordable. Solar Powered.</h5>
-                    <h1>Unlimited WiFi for Every Student Hostel</h1>
-                    <p>Enjoy seamless internet made for students — no data limits, no downtime. Golden WiFi keeps you connected for studies, streaming, and everything in between with fast, affordable, and solar-powered WiFi available 24/7 in your hostel.</p>
+                    <h5>GOLDEN WIFI <br> STAY CONNECTED! STAY UNLIMITED!!</h5>
+                    <h1>Unlimited WiFi for Hostels, Homes, Communities & Public Places</h1>
+                    <h6>FAST, UNLIMITED , AFFORDABLE & SOLAR POWERED</h6>
+                    <p>Fast, affordable, and solar-powered internet for everyone, <br> students, residents, businesses, and public spaces.</p>
                     <div class="hero_btns">
-                        <a href="#">
+                        <a href="#Pricing">
                             <button type="button">Get  Started <i class="bi bi-arrow-right-short"></i></button>
                         </a>
                          <a href="#">Location</a>
@@ -122,27 +123,9 @@
                 <p>The world is changing faster than ever, and access to the internet is now the key to everything — learning, creativity, entertainment, and opportunity.</p>
                 <p> What once required cables, modems, and expensive data bundles is now as simple as connecting to GOLDEN WIFI and unlocking a world of unlimited possibilities.</p>
                 <p>At GOLDEN WIFI, we believe that being connected is power.</p>
-
-                <div class="readmore_txt">
-                    <p> It is the power to learn without limits, to explore without barriers, to dream without restrictions, and to turn your phone or 
-                    laptop into a gateway of knowledge, creativity, and growth.</p>
-                    <p>We believe that once you are connected, you can discover more  unlimited learning, unlimited YouTube tutorials, unlimited movies for your entertainment, and unlimited opportunities to become who you want to be.</p>
-                    <p>That’s why we built GOLDEN WIFI to deliver strong, fast, and solar-powered internet made specifically for students and hostels.</p>
-                    <p> You can log in instantly, study smarter, stream freely, play without lag, and stay connected every hour, every day all at a price made for everyone.</p>
-                    <p>There was a time when the only way to experience the internet was by walking into a café and paying by the hour. It was simple, affordable, and brought people together to explore the digital world for the very first time.</p>
-                    <p>At GOLDEN WIFI, we’re not just bringing that idea back, we're reinventing it for the future.</p>
-                    <p> We’ve taken what once made internet cafés special and transformed it into a smarter, faster, and more connected experience that now lives right inside your hostel room.</p>
-                    <p>Our mission is to make the internet accessible to every student, no matter their budget or background. With our flexible hourly plans and affordable unlimited access, you can study, stream, work, or play anytime, anywhere.</p>
-                    <p>
-                        Because at GOLDEN WIFI, we believe the future belongs to those who are always connected.
-                        <span> Those who never stop learning.</span>
-                        <span> Those who never stop exploring.</span>
-                        <span> Those who never stop dreaming.</span>
-                    </p>
-                </div>
-
-                <button type="button">Read More <i class="bi bi-arrow-right-short"></i></button>
+               <a href="readmore.html"> <button type="button">Read More <i class="bi bi-arrow-right-short"></i></button></a>
             </div>
+
             <div class="story_bottom_card_main">
                 <div class="story_bottom_card_bar_main">
                     <div class="story_bottom_card_bar_inner">
@@ -231,7 +214,7 @@
                     <p>Enjoy Unlimited Internet Access instantly.</span></p>
                 </div>
             </div>
-            <div class="works_table_main">
+            <div class="works_table_main" id="Pricing">
                 <div class="works_title">
                     <h1>Find the Plan That Fits Your Lifestyle</h1>
                     <p>Flexible, student friendly plans. Pay only for what you need. <br>
@@ -461,7 +444,8 @@
                         <p>We bring all equipment ourselves and handle everything independently  you don’t spend a kobo. <br>
                         You relax. We handle the rest.</p>
                         <p>Approve partnership today and watch demand rise</p>
-                        <button type="button">Connect Your Hostel Now <i class="bi bi-arrow-right-short"></i></button>
+                        <a href="connect.html" target="_blank">
+                            <button type="button">Read More <i class="bi bi-arrow-right-short"></i></button></a>
                     </div>
                 </div>
             </div>
@@ -654,22 +638,6 @@
         AOS.init({
             duration: 1200,
         });
-    </script>
-
-    <script>
-    const readMoreBtn = document.querySelector(".story_title button");
-    const readMoreText = document.querySelector(".readmore_txt");
-
-    readMoreBtn.addEventListener("click", () => {
-        readMoreText.classList.toggle("show");
-
-        if (readMoreText.classList.contains("show")) {
-            readMoreBtn.innerHTML = `Read Less <i class="bi bi-arrow-up-short"></i>`;
-        } else {
-            readMoreBtn.innerHTML = `Read More <i class="bi bi-arrow-right-short"></i>`;
-        }
-    });
-
     </script>
 
 <script>

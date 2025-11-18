@@ -948,21 +948,6 @@ body{
     width: 25px;
     border-radius: 7px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer_section{
     background-image: url(../../assets/imgs/footer.png);
     height: auto;
@@ -1046,7 +1031,9 @@ body{
     flex-wrap: wrap;
     margin-top: 30px;
 }
-
+#for_mobile_footer{
+    display: none;
+}
 
 
 
@@ -1499,6 +1486,18 @@ body{
     }
 }
 @media(max-width:576px){
+    .footer_section{
+        padding: 50px 0px 15px 0px;
+    }
+    #for_mobile_footer{
+        padding-top: 15px;
+        display: block;
+        text-align: center;
+        border-top: 1px solid #FFFFFF;
+    }
+    #for_web_footer{
+        display: none;
+    }
     .terms_text_div h1 {
         font-size: 32px;
     }

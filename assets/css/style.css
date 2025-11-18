@@ -171,8 +171,8 @@ body{
 .brands_logos_main h5{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-size: 48px;
+    letter-spacing: 1.4px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -575,6 +575,20 @@ body{
     font-size: 18px;
     color: #FFFFFFCC;
 }
+.hide_btn_div{
+    text-align: center;
+    margin-top: 30px;
+}
+.hide_btn_div button{
+    /* background: #010510; */
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #CD9933;
+    padding: 6px 6px;
+    width: 80px;
+    border-radius: 8px;
+    font-size: 24px;
+}
 .roadmap_steps_main{
     position: relative;
     height: 100%;
@@ -878,10 +892,11 @@ body{
     position: absolute;
     top: -35px;
     left: 30px;
-    border: 6px solid #010511;
+    border: 6px solid #040724;
     height: 70px;
     width: 70px;
     object-fit: cover;
+    border-radius: 50%;
 }
 .home_sec5_swiper_inner_txt{
     margin-top: 10px;

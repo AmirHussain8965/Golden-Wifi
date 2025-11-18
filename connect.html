@@ -25,13 +25,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
                             <li class="nav-item">
-                                <a aria-current="page" class="nav-link active" href="index.html">How it works</a>
+                                <a aria-current="page" class="nav-link active" href="index.html#HIW">How it works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plans</a>
+                                <a class="nav-link" href="https://goldeninternetservicelimited.centipidtechnologies.com/buy/packages?ip=172.31.255.0&router=33163&mac=18%3ACC%3A18%3AA5%3A5B%3A77" target="_blank">Plans</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="connect.html">Contact</a>
+                                <a class="nav-link" href="https://linktr.ee/goldenwifi" target="_blank">Contact</a>
                             </li>
                         </ul>
                         <div class="nav_btns">
@@ -91,33 +91,44 @@
                 <h1>What We Offer </h1>
                 <p>All at No Cost to You</p>
             </div>
-            <div class="connect_sec2_offer_main">
-                <div class="connect_sec2_offer_inner">
-                    <img src="assets/imgs/conn_o1.png" alt="">
-                    <h5>Free Installation</h5>
-                    <p>small next-gen devices installed neatly.</p>
-                </div>
-                <div class="connect_sec2_offer_inner">
-                    <img src="assets/imgs/conn_o2.png" alt="">
-                    <h5>No Maintenance Stress</h5>
-                    <p>engineers handle everything.</p>
-                </div>
-                <div class="connect_sec2_offer_inner">
-                    <img src="assets/imgs/conn_o3.png" alt="">
-                    <h5>Full Technical Support</h5>
-                    <p>tenants contact us directly.</p>
-                </div>
-                <div class="connect_sec2_offer_inner">
-                    <img src="assets/imgs/conn_o4.png" alt="">
-                    <h5>Independent System</h5>
-                    <p>doesn’t touch existing setups.</p>
-                </div>
-                <div class="connect_sec2_offer_inner">
-                    <img src="assets/imgs/conn_o5.png" alt="">
-                    <h5>Zero Financial Commitment</h5>
-                    <p>no fees or payments.</p>
-                </div>
+
+            <div class="hide_btn_div">
+                <button class="toggle-btn" data-target=".Offer_content">
+                    <i class="bi bi-chevron-down"></i>
+                    <i class="bi bi-chevron-up" style="display:none;"></i>
+                </button>
             </div>
+
+             <div class="Offer_content" style="display:none;">
+                <div class="connect_sec2_offer_main">
+                     <div class="connect_sec2_offer_inner">
+                         <img src="assets/imgs/conn_o1.png" alt="">
+                         <h5>Free Installation</h5>
+                         <p>small next-gen devices installed neatly.</p>
+                     </div>
+                     <div class="connect_sec2_offer_inner">
+                         <img src="assets/imgs/conn_o2.png" alt="">
+                         <h5>No Maintenance Stress</h5>
+                         <p>engineers handle everything.</p>
+                     </div>
+                     <div class="connect_sec2_offer_inner">
+                         <img src="assets/imgs/conn_o3.png" alt="">
+                         <h5>Full Technical Support</h5>
+                         <p>tenants contact us directly.</p>
+                     </div>
+                     <div class="connect_sec2_offer_inner">
+                         <img src="assets/imgs/conn_o4.png" alt="">
+                         <h5>Independent System</h5>
+                         <p>doesn’t touch existing setups.</p>
+                     </div>
+                     <div class="connect_sec2_offer_inner">
+                         <img src="assets/imgs/conn_o5.png" alt="">
+                         <h5>Zero Financial Commitment</h5>
+                         <p>no fees or payments.</p>
+                     </div>
+                </div>
+             </div>
+
         </div>
     </section>
 
@@ -272,58 +283,6 @@
         });
     </script>
 
-    <script>
-    const readMoreBtn = document.querySelector(".story_title button");
-    const readMoreText = document.querySelector(".readmore_txt");
-
-    readMoreBtn.addEventListener("click", () => {
-        readMoreText.classList.toggle("show");
-
-        if (readMoreText.classList.contains("show")) {
-            readMoreBtn.innerHTML = `Read Less <i class="bi bi-arrow-up-short"></i>`;
-        } else {
-            readMoreBtn.innerHTML = `Read More <i class="bi bi-arrow-right-short"></i>`;
-        }
-    });
-
-    </script>
-
-<script>
-var swiper = new Swiper(".mySwiper2", {
-    spaceBetween: 20,
-    slidesPerView: 1,
-    loop: true,
-
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-
-    breakpoints: {
-        480: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
-        576: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-    },
-});
-</script>
 
     
 </body>

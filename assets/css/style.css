@@ -597,7 +597,7 @@ body{
     height: 100%;
     width: 1px;
     position: absolute;
-    left: 100px;
+    left: 82px;
     top: 0;
     bottom: 0;
 }
@@ -605,8 +605,8 @@ body{
     background: transparent;
     backdrop-filter: blur(20px);
     box-shadow: 3px 3px 0px -3px rgba(0, 0, 0, 0.5) inset, -2px -2px 1px -2px rgba(179, 179, 179, 1) inset, 2px 2px 1px -2px rgba(255, 255, 255, 1) inset;
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     border-radius: 51px;
     display: flex;
     justify-content: center;
@@ -615,8 +615,8 @@ body{
 .roadmap_steps_nummber_inner span{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
     text-align: center;
     color: #898989;
 }
@@ -627,8 +627,8 @@ body{
     background: transparent;
     backdrop-filter: blur(20px);
     box-shadow: 3px 3px 0px -3px rgba(0, 0, 0, 0.5) inset, -2px -2px 1px -2px rgba(179, 179, 179, 1) inset, 2px 2px 1px -2px rgba(255, 255, 255, 1) inset;
-    height: 150px;
-    width: 150px;
+    height: 135px;
+    width: 135px;
     border-radius: 51px;
     display: flex;
     justify-content: center;
@@ -638,8 +638,8 @@ body{
 .roadmap_steps_nummber_inner2 span{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 44px;
+    font-size: 24px;
+    line-height: 36px;
     text-align: center;
     color: #898989;
 }
@@ -655,6 +655,29 @@ body{
 }
 .roadmap_steps_text.road_right_txt{
     text-align: start;
+}
+.roadmap_steps_text#empty1{
+    min-height: 230px;
+}
+.roadmap_steps_text#empty2{
+    min-height: 180px;
+}
+.roadmap_steps_text#PHASE1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+}
+.roadmap_steps_text#PHASE2{
+    
+}
+.roadmap_steps_text#PHASE3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.roadmap_steps_text#PHASE4{
+    margin-top: 0;
 }
 .roadmap_steps_text h3{
     font-family: "Space Grotesk", sans-serif;
@@ -1220,6 +1243,62 @@ body{
     color: #FFFFFFCC;
     margin-bottom: 0;
 }
+
+
+.terms_section{
+    padding: 100px 0px;
+}
+.terms_text_div{
+    margin-top: 140px;
+}
+.terms_text_div h1{
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.terms_text_div h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 35px;
+    letter-spacing: 1px;
+}
+.terms_text_div p{
+    font-size: 18px;
+    color: #E7E7E7;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.terms_text_div p span{
+    color: #CD9933;
+    font-weight: 600;
+}
+.terms_text_div ul li{
+    font-size: 18px;
+    color: #E7E7E7;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.terms_text_div a{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 11px;
+    text-decoration: none;
+    color: #CD9933;
+}
 @media(max-width:1366px){
     .choose_card_body_div {
         width: 100%;
@@ -1233,6 +1312,10 @@ body{
     .home_sec5_swiper_inner{
         min-height: 340px;
     }
+    .roadmap_steps_text h3 {
+        font-size: 20px;
+        line-height: 36px;
+    }
 }
 @media(max-width:1024px){
         .navbar-brand img{
@@ -1241,6 +1324,11 @@ body{
     }
 }
 @media(max-width:992px){
+    .roadmap_steps_text {
+        justify-content: start !important;
+        margin-top: 40px !important;
+        padding-top: 0px !important;
+    }
     .conn_sec1_text_div h1 {
         font-size: 28px;
         line-height: 40px;
@@ -1271,7 +1359,6 @@ body{
     }
     .roadmap_steps_nummber_inner2{
         display: flex;
-        margin-top: 50px;
     }
     .empty_one{
         display: none;

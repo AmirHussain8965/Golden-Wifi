@@ -668,7 +668,7 @@ body{
     width: 100%;
     max-width: 504px;
     text-align: end;
-    min-height: 340px;
+    min-height: 350px;
 }
 .roadmap_steps_text.road_right_txt{
     text-align: start;
@@ -685,6 +685,9 @@ body{
     justify-content: center;
     margin-top: 0;
 }
+.roadmap_steps_text#PHASE2{
+    margin-top: 50px;
+}
 .roadmap_steps_text#PHASE3{
     display: flex;
     flex-direction: column;
@@ -692,6 +695,9 @@ body{
 }
 .roadmap_steps_text#PHASE4{
     margin-top: 0;
+}
+.roadmap_steps_text#PHASE4{
+    margin-top: 30px;
 }
 .roadmap_steps_text h3{
     font-family: "Space Grotesk", sans-serif;
